@@ -96,7 +96,7 @@ Free with limitations
     - AWS Lambda (1 000 000 requests and 3 000 000 seconds / month)
 ```
 
-Here, the Lambdas will be the only part that can overdue the budget.
+Here, the Lambdas will be the only part that can exceed the budget.
 
 The target cost is 10 $ a month. After that, the finding of newer prime numbers will be stopped. 
 Only the already discovered primes stored in cache will be returned.
